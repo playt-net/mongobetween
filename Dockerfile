@@ -1,4 +1,4 @@
-FROM alpine:1.25.3
+FROM alpine:3.19.1
 
 ENV PORT 27018
 ENV CONNECTION_STRING "mongodb://localhost:27017/database"
